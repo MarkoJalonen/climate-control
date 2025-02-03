@@ -14,9 +14,9 @@ Slider {
     stepSize: 1
 
     background: Rectangle {
-        height: 2
+        height: 5
         width: controlSlider.width - controlSlider.handle.width / 2
-        radius: 2
+        radius: 5
         anchors.verticalCenter: controlSlider.verticalCenter
         color: controlSlider.color
     }
@@ -24,11 +24,11 @@ Slider {
     handle: Rectangle {
         x: controlSlider.visualPosition * (controlSlider.availableWidth - width)
         anchors.verticalCenter: controlSlider.verticalCenter
-        width: 26
-        height: 26
+        width: 64
+        height: 64
         radius: width / 2
         color: controlSlider.handleFillColor
         border.color: controlSlider.color
-        border.width: 2
+        border.width: width / 12
     }
 }

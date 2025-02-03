@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="26.458334mm"
+   height="26.458334mm"
+   viewBox="0 0 26.458333 26.458333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="rearscreen_demist_white.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.74029882"
+     inkscape:cx="200.59467"
+     inkscape:cy="200.59467"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-52.12292,-95.51458)">
+    <g
+       id="g72"
+       transform="matrix(0.25,0,0,0.25,-14.647912,48.743748)">
+      <g
+         id="g68"
+         transform="matrix(0.52916667,0,0,0.52916667,267.08333,187.08333)">
+        <g
+           fill="none"
+           id="g5-6">
+          <g
+             stroke="#999999"
+             stroke-width="3"
+             id="g4-5">
+            <path
+               d="M 0,16 V 0 h 16"
+               id="path1-2"
+               style="fill:none;stroke:none" />
+            <path
+               d="M 200,16 V 0 h -16"
+               id="path2-4"
+               style="fill:none;stroke:none" />
+            <path
+               d="m 0,184 v 16 h 16"
+               id="path3-8"
+               style="fill:none;stroke:none" />
+            <path
+               d="m 200,184 v 16 h -16"
+               id="path4-1"
+               style="fill:none;stroke:none" />
+          </g>
+          <rect
+             x="18.452999"
+             y="40.808998"
+             width="163.09"
+             height="104"
+             rx="12.712"
+             ry="12.712"
+             stroke="#000000"
+             stroke-width="10"
+             id="rect4"
+             style="stroke:#fefefe;stroke-opacity:1" />
+        </g>
+        <path
+           d="m 133.05,55.143 -7.4727,16.785 h 2.0059 l 5.9883,22.344 c 0.63823,2.3819 0.47297,4.9054 -0.4707,7.1836 l -9.1504,22.094 c -1.854,4.476 -1.854,9.5102 0,13.986 l 8.9492,21.607 c 0.84058,2.0293 0.84058,4.3046 0,6.334 l -5.1777,12.498 h 10.824 l 3.5918,-8.6719 c 1.854,-4.476 1.854,-9.5103 0,-13.986 l -8.9492,-21.607 c -0.84058,-2.0293 -0.84058,-4.3046 0,-6.334 l 9.1504,-22.094 c 1.7855,-4.3106 2.1002,-9.0909 0.89258,-13.598 l -5.293,-19.756 h 2.584 z"
+           id="path5-8"
+           style="fill:#ffffff;fill-opacity:1" />
+        <path
+           d="m 66.535,55.143 -7.4727,16.785 h 2.0059 l 5.9883,22.344 c 0.63823,2.3819 0.47297,4.9054 -0.4707,7.1836 l -9.1504,22.094 c -1.854,4.476 -1.854,9.5102 0,13.986 l 8.9492,21.607 c 0.84058,2.0293 0.84058,4.3046 0,6.334 l -5.1777,12.498 h 10.824 l 3.5918,-8.6719 c 1.854,-4.476 1.854,-9.5103 0,-13.986 l -8.9492,-21.607 c -0.84058,-2.0293 -0.84058,-4.3046 0,-6.334 l 9.1504,-22.094 c 1.7855,-4.3106 2.1002,-9.0909 0.89258,-13.598 l -5.293,-19.756 h 2.584 z"
+           id="path6-3"
+           style="fill:#ffffff;fill-opacity:1" />
+        <path
+           d="m 99.793,55.143 -7.4727,16.785 h 2.0059 l 5.9883,22.344 c 0.63823,2.3819 0.47297,4.9054 -0.4707,7.1836 l -9.1504,22.094 c -1.854,4.476 -1.854,9.5102 0,13.986 l 8.9492,21.607 c 0.84058,2.0293 0.84058,4.3046 0,6.334 l -5.1777,12.498 h 10.824 l 3.5918,-8.6719 c 1.854,-4.476 1.854,-9.5103 0,-13.986 l -8.9492,-21.607 c -0.84058,-2.0293 -0.84058,-4.3046 0,-6.334 l 9.1504,-22.094 c 1.7855,-4.3106 2.1002,-9.0909 0.89258,-13.598 l -5.293,-19.756 h 2.584 z"
+           id="path7-4"
+           style="fill:#ffffff;fill-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>

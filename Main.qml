@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Layouts
+import QtQuick.Controls.Basic
 import Elements
 
 Window {
@@ -13,28 +14,89 @@ Window {
     minimumWidth: 640
     color: backgroundColor
     visible: true
+    title: "Climate Control"
 
-    GridLayout {
-        id: grid
-        anchors {
-            fill: parent
-            margins: 10
+    ColumnLayout {
+        width: root.width
+        height: root.height
+
+        RowLayout {
+            ToggleIcon {
+                enableEffect: false
+                svgPath: "Assets/fan_white.svg"
+            }
+
+            CustomSlider {
+                Layout.fillWidth: true
+                color: root.drawColor
+                handleFillColor: root.backgroundColor
+                snapMode: Slider.SnapAlways
+                from: 0
+                value: 2
+                to: 4
+                stepSize: 1
+            }
         }
-        columns: 3
-        rows: 3
 
-        ToggleIcon {
-            svgPath: "Assets/windscreen_demist_white.svg"
-            Layout.preferredWidth: grid.width / grid.columns
-            Layout.preferredHeight: grid.height / grid.rows
+        RowLayout {
+            Item {
+                id: tempItem
+                width: 150
+                height: 150
+                Text {
+                    id: tempValue
+                    anchors {
+                        horizontalCenter: tempItem.horizontalCenter
+                    }
+                    font.pointSize: 48
+                    text: "22"
+                    color: root.drawColor
+                }
+                Text {
+                    y: tempValue.y + tempValue.height
+                    anchors.horizontalCenter: tempValue.horizontalCenter
+                    font.pointSize: 24
+                    text: "TEMP"
+                    color: root.drawColor
+                }
+            }
+
+            CustomSlider {
+                Layout.fillWidth: true
+                color: root.drawColor
+                handleFillColor: root.backgroundColor
+
+                onValueChanged: function(){
+                    tempValue.text = this.value;
+                }
+            }
         }
+    
 
-        CustomSlider {
-            id: slider
-            Layout.columnSpan: 2
-            Layout.preferredWidth: grid.width / grid.columns * 2
-            color: root.drawColor
-            handleFillColor: root.backgroundColor
+        RowLayout {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            Layout.alignment: Qt.AlignHCenter 
+            spacing: 10
+
+            Repeater {
+                model: [
+                    "Assets/heated_seat_white.svg",
+                    "Assets/windscreen_demist_white.svg",
+                    "Assets/rearscreen_demist_white.svg",
+                    "Assets/air_circulation_white.svg",
+                ]
+
+                ToggleIcon {
+                    required property string modelData
+                    svgPath: modelData
+                }
+            }
+
+            ToggleIcon{
+                mirrored: true
+                svgPath: "Assets/heated_seat_white.svg"  
+            }
         }
     }
 }
